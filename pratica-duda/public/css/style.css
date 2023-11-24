@@ -1,0 +1,28 @@
+:root{
+    --azul: #3629CB;
+    --verde: #018948;
+    --vermelho: #AC0000;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+body{
+    background-color: var(--branco);
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-weight: 700;
+}
+input{
+    width: 400px;
+    height: 40px;
+}
+button{
+    background-color: var(--preto);
+    color: var(--branco);
+}
